@@ -1,0 +1,59 @@
+p {}
+body {background-color: #F1F8E9;}
+#line1 {
+  	text-align: center;
+  	color: mediumseagreen;
+    font-size: 30px;
+}
+#line2 {
+  	text-align: center;
+    color: darkseagreen;
+  font-size: 25px;
+}
+#line3and4 {
+  	text-align: center;
+    color: lawngreen;
+  font-size: 22px
+}
+#line5 {
+  	text-align: center;
+  	color: green;
+  font-size: 22px
+}
+#line6 {
+  	text-align: center;
+  	color: olivedrab;
+  font-size: 22px
+}
+#line7 {
+  	text-align: center;
+  	color: forestgreen;
+    font-size: 27px
+}
+#line0 {
+  	text-align: center;
+  	color: darkgreen;
+    font-size: 50px;
+}
+#frogtable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#frogtable td, #frogtable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#frogtable tr:nth-child(even){background-color: #f2f2f2;}
+
+#frogtable tr:hover {background-color: #ddd;}
+
+#frogtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #008B8B;
+  color: white;
+}
